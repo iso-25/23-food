@@ -1,0 +1,7 @@
+<!-- <p>home works!</p> -->
+<div class="container">
+    <app-home-adv></app-home-adv>
+    <!-- <app-home-category [categories]="allCategories" (selectedCategoriesUpdated)="updateSelectedCategories($event)"></app-home-category> -->
+    <app-home-category [categories]="allCategories" (selectedCategoriesUpdated)="updateSelectedCategories($event)"></app-home-category>
+    <app-home-restaurants [restaurants]="allRestaurants" [categories]="allCategories"></app-home-restaurants>
+</div>

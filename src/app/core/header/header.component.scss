@@ -1,0 +1,8 @@
+.header {
+  &__container {
+    max-width: calc(1110rem + 40rem);
+    width: 100%;
+    margin-inline: auto;
+    padding: 20rem 20rem;
+  }
+}

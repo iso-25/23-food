@@ -1,0 +1,7 @@
+<div class="container">
+    <div *ngFor="let category of categories" (click)="toggleCategorySelection(category)" [ngClass]="{'selected': category.selected}" class="category">
+    <!-- <div *ngFor="let category of categories" class="category"> -->
+        <img [src]="category.img" alt="{{ category.name }}" class="category__img">
+        <h3 class="category__title">{{ category.title }}</h3>
+    </div>
+</div>
